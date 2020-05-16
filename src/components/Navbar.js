@@ -13,7 +13,7 @@ class Navbar extends Component {
 
                 <img src='amozon.png' alt='str' className='logo' />
                     <h1 onClick={()=>this.product()}>Product</h1>
-                <h1>About</h1><h1>Orders</h1>
+                <h1>About</h1>
                 <Link to='/cart'>
                     <button className='cart'>
                         <span ><i className='fa fa-cart-plus' /></span>
