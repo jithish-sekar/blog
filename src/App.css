@@ -74,3 +74,28 @@ background: black;
 .productimg{
   height: 250px;
 }
+.price{
+  color: rgb(50, 50, 170);
+  margin-bottom: 0;
+  font-style: italic;
+}
+.buttoncart{
+  color:white;
+  background:#232528;
+  border-radius: 6px;
+  border: 2px solid #f2f2f2;
+  height: 40px;
+  font-size: 25px;
+  width: auto;
+  position: absolute;
+  bottom: 50px;
+  right: 0;}
+.buttoncart:focus{
+  outline: none;
+}
+.card-ftr{
+  background-color: #e9ebec;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
